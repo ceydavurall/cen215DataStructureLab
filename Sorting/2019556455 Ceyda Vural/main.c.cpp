@@ -319,7 +319,6 @@ void heap_sortchar(char arr[], int n)
     }
 }
 
-
  int main(){
      printf("Unsorted number:2019556455\n");
      printf("Unsorted name:ceyda vural\n");
@@ -422,6 +421,6 @@ void heap_sortchar(char arr[], int n)
       t = (double)clock()-t;
       printf("Sorted name in Heap Sort : %s\n",name5);
       printf("Running time of Heap Sort for char: %f\n",((double)t) / CLOCKS_PER_SEC);
-      
+
       return 0;
  }
